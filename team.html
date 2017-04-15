@@ -1,0 +1,25 @@
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+
+  function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    var teamName = (decodeURIComponent(results[2].replace(/\+/g, " ")));
+    var url = 'http://NflArrest.com/api/v1/team/topCrimes/' + teamName;
+   
+      var chartArray = [];
+      $.getJSON(url, function (data) {
+       console.log(data);
+        $.each(data, function () {
+        })
+
+  })
+}
+var team = getParameterByName('team'); 
+</script>

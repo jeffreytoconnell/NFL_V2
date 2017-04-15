@@ -1,0 +1,51 @@
+/*body {
+  background: url("../images/prison.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+*/
+
+header {
+  width: 35%;
+  margin: auto;
+  color: black;
+  font-size: 32px;
+  font-family: 'Neuton', serif;
+}
+
+#leagues {
+  display: inline-flex;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+#AFC,
+#NFC {
+  display: inline-flex;
+  width: 45%;
+  height: 200px;
+  margin: auto;
+  justify-content: center;
+}
+
+#AFC img,
+#NFC img {
+  display: inline-flex;
+  align-content: center;
+  height: 100px;
+  
+  margin: auto;
+}
+
+.containerAFC, .containerNFC {
+    width:49%;
+    margin: auto;
+    float:left;
+}
+.logo-box {
+  display: inline-flex;
+  align-content: center;
+  margin: auto;
+  width:115px;
+  height:150px;
+}
