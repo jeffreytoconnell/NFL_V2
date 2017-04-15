@@ -1,37 +1,43 @@
 /*body {
+  
   background: url("../images/prison.jpg") no-repeat center fixed;
   background-size: cover;
-}
-*/
+} */
+
 
 header {
-  width: 35%;
-  margin: auto;
+  width: 100%;
   color: black;
   font-size: 32px;
   font-family: 'Neuton', serif;
+  margin-top: -20px;
+}
+
+header img {
+  width: 10%;
+  margin: -10px 0px 0px 455px;
 }
 
 #leagues {
   display: inline-flex;
   width: 100%;
   height: 200px;
-  margin: auto;
+  
 }
 
 #AFC,
 #NFC {
   display: inline-flex;
-  width: 45%;
+  width: 50%;
   height: 200px;
-  margin: auto;
-  justify-content: center;
+  margin: 0;
+ 
 }
 
 #AFC img,
 #NFC img {
   display: inline-flex;
-  align-content: center;
+  
   height: 100px;
   
   margin: auto;
