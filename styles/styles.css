@@ -29,29 +29,41 @@ header img {
 #NFC {
   display: inline-flex;
   width: 50%;
-  height: 200px;
-  margin: 0;
+  height: 100px;
+  margin: auto;
+  
  
 }
 
 #AFC img,
 #NFC img {
   display: inline-flex;
-  
-  height: 100px;
-  
+  height: 95px;
   margin: auto;
+  padding-bottom: -25px;
 }
 
-.containerAFC, .containerNFC {
-    width:49%;
+.containerAFC {
+    width:45%;
     margin: auto;
+    padding-left: 90px;
     float:left;
 }
+
+.containerNFC  {
+     width: 45%;
+     margin: auto;
+     float: left;
+     padding-left: 25px;
+  
+}
+
+
+
 .logo-box {
   display: inline-flex;
   align-content: center;
   margin: auto;
-  width:115px;
-  height:150px;
+  width:140px;
+  height: 100px;
 }
